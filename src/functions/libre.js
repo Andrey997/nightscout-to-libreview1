@@ -13,7 +13,7 @@ const authLibreView = async function (username, password, device, setDevice) {
     Password: password
   };
 
-  const response = await axios.default.post('https://api-eu.libreview.io/lsl/api/nisperson/getauthentication', data, {
+  const response = await axios.default.post('https://api.libreview.ru/lsl/api/nisperson/getauthentication', data, {
     headers: {
       'Content-Type': 'application/json'
     }
@@ -43,7 +43,7 @@ const transferLibreView = async function (device, token, glucoseEntries, foodEnt
         device: {
           hardwareDescriptor: "iPhone14,2",
           osVersion: "15.4.1",
-          modelName: "com.abbott.librelink.de",
+          modelName: "com.abbott.librelink.ru",
           osType: "iOS",
           uniqueIdentifier: device,
           hardwareName: "iPhone"
@@ -78,7 +78,7 @@ const transferLibreView = async function (device, token, glucoseEntries, foodEnt
     Domain: "Libreview"
   };
 
-  const response = await axios.default.post('https://api-eu.libreview.io/lsl/api/measurements', data, {
+  const response = await axios.default.post('https://api.libreview.ru/lsl/api/measurements', data, {
     headers: {
       'Content-Type': 'application/json'
     }
