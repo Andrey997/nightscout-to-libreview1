@@ -5,9 +5,9 @@ const authLibreView = async function (username, password, device, setDevice) {
   console.log('authLibreView'.blue);
 
   const data = {
-    DeviceId: device,
-    GatewayType: "FSLibreLink.iOS",
-    SetDevice: setDevice,
+    DeviceId: 352828295774143,
+    GatewayType: "FSLibreLink.Android",
+    SetDevice: samsungSM-A736B,
     UserName: username,
     Domain: "Libreview",
     Password: password
@@ -37,16 +37,16 @@ const transferLibreView = async function (device, token, glucoseEntries, foodEnt
 
   const data = {
     UserToken: token,
-    GatewayType: "FSLibreLink.iOS",
+    GatewayType: "FSLibreLink.Android",
     DeviceData: {
       header: {
         device: {
-          hardwareDescriptor: "iPhone14,2",
-          osVersion: "15.4.1",
+          hardwareDescriptor: "SM-A736B",
+          osVersion: "33",
           modelName: "com.abbott.librelink.ru",
-          osType: "iOS",
+          osType: "Android",
           uniqueIdentifier: device,
-          hardwareName: "iPhone"
+          hardwareName: "Samsung"
         }
       },
       measurementLog: {
