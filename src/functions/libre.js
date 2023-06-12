@@ -7,7 +7,7 @@ const authLibreView = async function (username, password, device, setDevice) {
   const data = {
     DeviceId: device,
     GatewayType: "FSLibreLink.Android",
-    SetDevice: SM-A736B,
+    SetDevice: setDevice,
     UserName: username,
     Domain: "Libreview",
     Password: password
