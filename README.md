@@ -19,7 +19,7 @@ npm start
 
 Open command line in your favorite folder:
 ```
-cd nightscout-to-libreview
+cd nightscout-to-libreview1
 npm start
 ```
 
