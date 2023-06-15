@@ -7,7 +7,7 @@ Transfer your diabetes data from Nightscout to LibreView.
 
 ## First use
 
-Open command line in your favorite folder:
+Open command line in your favorite folder(комманды вводятся во вкладке Terminal в Android Studio):
 ```
 git clone https://github.com/Andrey997/nightscout-to-libreview1
 cd nightscout-to-libreview1
