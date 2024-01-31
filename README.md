@@ -1,5 +1,5 @@
 # Передача данных из Nightscout в LibreView
-Перенесите свои данные о диабете из Nighscout в Librewiev
+Перенесите свои данные о диабете из Nighscout в Libreview
 
 ## Требования
 - Установить git https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe
